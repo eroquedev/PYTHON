@@ -1,3 +1,5 @@
+CREATE USER USERNAME WITH PASSWORD 'PASSWORD';
+
 CREATE TABLE IF NOT EXISTS backup_dbs (
     datname TEXT PRIMARY KEY,
     last_backup_date TIMESTAMP,
@@ -41,8 +43,6 @@ END;
 $$ LANGUAGE plpgsql;
 
 SELECT sync_databases();
-
-CREATE USER USERNAME WITH PASSWORD 'PASSWORD';
 
 SELECT *
 FROM backup_dbs 
