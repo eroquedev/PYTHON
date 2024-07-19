@@ -1,5 +1,13 @@
 # POSTGRESQL/db_admin_tools
 
-This folder contains a series of scripts and tools for managing PostgreSQL databases. The contents of this folder are detailed below.
+This folder contains a series of scripts and tools for managing PostgreSQL databases. Below is a detailed description of the contents of this folder.
+- Create backup of PostgreSQL databases
+- Assign permissions and privileges to a user
+- Revoke and delete a user
+- Save the PostgreSQL database list in a table
 
 Esta carpeta contiene una serie de scripts y herramientas para la administración de bases de datos PostgreSQL. A continuación, se detalla el contenido de esta carpeta.
+- crear backup de las base de datos PostgreSQL
+- Permisos y provilegios a un usuario
+- Revocar y eliminar a un usuario
+- Guardar la lista base de datos PostgreSQL en una tabla
