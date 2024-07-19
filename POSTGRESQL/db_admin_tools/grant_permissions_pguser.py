@@ -3,6 +3,7 @@ from psycopg2 import sql
 from datetime import datetime
 from dotenv import load_dotenv
 import os
+import logging
 
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv('.env.production')
@@ -19,10 +20,9 @@ db_config = {
     "port": os.getenv('DB_PORT'),
 }
 
-def log_message(message):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    with open(LOG_FILE, "a") as f:
-        f.write(f"{timestamp} - {message}\n")
+# Configuración de logging
+logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 # Establecer conexión con PostgreSQL
 def connect_to_postgres(dbname):
@@ -30,10 +30,24 @@ def connect_to_postgres(dbname):
         conn = psycopg2.connect(dbname=dbname, **db_config)
         return conn
     except psycopg2.OperationalError as e:
-        log_message(f"Connection - Error al conectar a la DB {dbname}: {e}")
+        logger.error(f"Connection - Error al conectar a la DB {dbname}: {e}")
     except psycopg2.Error as e:
-        log_message(f"Connection - Error inesperado de psycopg2: {e}")
+        logger.error(f"Connection - Error inesperado de psycopg2: {e}")
     return None
+
+# Verificar si el usuario existe
+def user_exists(conn, username):
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(
+                sql.SQL("SELECT 1 FROM pg_roles WHERE rolname = %s"),
+                [username]
+            )
+            exists = cursor.fetchone() is not None
+        return exists
+    except psycopg2.Error as e:
+        logger.error(f"Error al verificar la existencia del usuario {username}: {e}")
+        return False
 
 # Obtener lista de bases de datos
 def get_databases(conn):
@@ -43,10 +57,10 @@ def get_databases(conn):
                 sql.SQL("SELECT datname FROM pg_database WHERE datistemplate = false;")
             )
             databases = [row[0] for row in cursor.fetchall()]
-            log_message(f"Bases de datos obtenidas: {len(databases)}")
+            logger.info(f"Bases de datos obtenidas: {len(databases)}")
         return databases
     except psycopg2.Error as e:
-        log_message(f"Error al obtener la lista de bases de datos: {e}")
+        logger.error(f"Error al obtener la lista de bases de datos: {e}")
         return []
 
 # Obtener lista de esquemas en una base de datos
@@ -64,7 +78,7 @@ def get_schemas(conn):
             schemas = [row[0] for row in cursor.fetchall()]
         return schemas
     except psycopg2.Error as e:
-        log_message(f"Error al obtener la lista de esquemas: {e}")
+        logger.error(f"Error al obtener la lista de esquemas: {e}")
         return []
 
 # Otorgar permisos al usuario backup_user en cada base de datos
@@ -74,6 +88,10 @@ def grant_permissions():
         return
 
     try:
+        if not user_exists(conn_, BACKUP_USER):
+            logger.error(f"El usuario {BACKUP_USER} no existe. Terminando el script.")
+            return
+
         databases = get_databases(conn_)
 
         for db in databases:
@@ -111,10 +129,11 @@ def grant_permissions():
                         cursor.execute(statement)
                     cursor.execute("COMMIT;")
 
-                log_message(f"INFO:Permisos otorgados para usuario:[{BACKUP_USER}] - DB: [{db}]")
+                logger.info(f"Permisos otorgados para usuario:[{BACKUP_USER}] - DB: [{db}]")
             except psycopg2.Error as e:
-                log_message(f"Error al otorgar permisos usuario:[{BACKUP_USER}] - DB: [{db}]: {e}")
-                conn_db.rollback()
+                logger.error(f"Error al otorgar permisos usuario:[{BACKUP_USER}] - DB: [{db}]: {e}")
+                with conn_db.cursor() as cursor:
+                    cursor.execute("ROLLBACK;")
 
             finally:
                 conn_db.close()
@@ -123,8 +142,7 @@ def grant_permissions():
 
 def main():
     grant_permissions()
-
-    log_message("______________________________________________________________________________________________________________________________")
+    logger.info("---")
     print(f"Proceso de otorgamiento de permisos completado. Detalles en el archivo {LOG_FILE}")
 
 if __name__ == "__main__":
