@@ -126,6 +126,7 @@ def grant_permissions():
                 with conn_db.cursor() as cursor:
                     cursor.execute("BEGIN;")
                     for statement in sql_statements:
+                        # logger.info(f"{sql_statements}")
                         cursor.execute(statement)
                     cursor.execute("COMMIT;")
 

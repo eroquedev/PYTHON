@@ -1,0 +1,211 @@
+2024-07-19 00:41:07,540 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:41:07,553 - INFO - Bases de datos obtenidas: 5
+2024-07-19 00:41:07,553 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:41:07,895 - INFO - Backup completado para DB: [_asist_academia] en 0:00:00.341584, tamaño del archivo: 710160 bytes
+2024-07-19 00:41:08,411 - INFO - Backup completado para DB: [autocont_20507047697_001] en 0:00:00.852909, tamaño del archivo: 2488994 bytes
+2024-07-19 00:41:08,838 - INFO - Backup completado para DB: [autocont_g11_otiniano] en 0:00:01.278652, tamaño del archivo: 3968747 bytes
+2024-07-19 00:41:09,110 - INFO - Backup completado para DB: [autocont_g10_diaz] en 0:00:01.551120, tamaño del archivo: 5250207 bytes
+2024-07-19 00:41:09,711 - INFO - Backup completado para DB: [autocont_g12_quispe] en 0:00:01.790621, tamaño del archivo: 6237477 bytes
+2024-07-19 00:41:09,731 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:41:09,736 - ---
+2024-07-19 00:43:57,020 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:43:57,035 - INFO - Bases de datos obtenidas: 5
+2024-07-19 00:43:57,035 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:43:59,286 - INFO - Backup completado para DB: [autocont_g2_perez] en 0:00:02.248334, tamaño del archivo: 7541519 bytes
+2024-07-19 00:43:59,941 - INFO - Backup completado para DB: [autocont_g4_culqui] en 0:00:02.900357, tamaño del archivo: 9075239 bytes
+2024-07-19 00:44:01,049 - INFO - Backup completado para DB: [autocont_g3_puma] en 0:00:04.009616, tamaño del archivo: 14699145 bytes
+2024-07-19 00:44:01,949 - INFO - Backup completado para DB: [autocont_g1_cedra] en 0:00:04.912796, tamaño del archivo: 17656199 bytes
+2024-07-19 00:44:02,258 - INFO - Backup completado para DB: [autocont_g5_arrascue] en 0:00:02.951898, tamaño del archivo: 9782361 bytes
+2024-07-19 00:44:02,275 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:44:02,279 - ---
+2024-07-19 00:45:37,869 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:45:37,881 - INFO - Bases de datos obtenidas: 5
+2024-07-19 00:45:37,881 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:45:38,454 - INFO - Backup completado para DB: [autocont_g8_capa] en 0:00:00.570569, tamaño del archivo: 1919149 bytes
+2024-07-19 00:45:38,569 - INFO - Backup completado para DB: [autocont_g9_ayquipa] en 0:00:00.684829, tamaño del archivo: 2554000 bytes
+2024-07-19 00:45:38,744 - INFO - Backup completado para DB: [autocont_g7_villoslada] en 0:00:00.861305, tamaño del archivo: 3306741 bytes
+2024-07-19 00:45:39,530 - INFO - Backup completado para DB: [autocont_hernan_old] en 0:00:01.060741, tamaño del archivo: 3020889 bytes
+2024-07-19 00:45:39,825 - INFO - Backup completado para DB: [autocont_g6_calzada] en 0:00:01.943542, tamaño del archivo: 6519145 bytes
+2024-07-19 00:45:39,850 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:45:39,854 - ---
+2024-07-19 00:46:22,893 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:46:22,906 - INFO - Bases de datos obtenidas: 5
+2024-07-19 00:46:22,906 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:46:23,395 - INFO - Backup completado para DB: [autocont_modelo] en 0:00:00.466024, tamaño del archivo: 1564893 bytes
+2024-07-19 00:46:23,496 - INFO - Backup completado para DB: [autocont_hernan_upn] en 0:00:00.588944, tamaño del archivo: 1945411 bytes
+2024-07-19 00:46:23,755 - INFO - Backup completado para DB: [autocontplus_admin] en 0:00:00.323105, tamaño del archivo: 16802 bytes
+2024-07-19 00:46:24,617 - INFO - Backup completado para DB: [autocont_metabase] en 0:00:01.690634, tamaño del archivo: 5169468 bytes
+2024-07-19 00:46:25,453 - INFO - Backup completado para DB: [autocont_lopez] en 0:00:02.541682, tamaño del archivo: 8915788 bytes
+2024-07-19 00:46:25,481 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:46:25,494 - ---
+2024-07-19 00:48:30,497 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:48:30,514 - INFO - Bases de datos obtenidas: 5
+2024-07-19 00:48:30,514 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:48:30,786 - INFO - Backup completado para DB: [autocontplus_admin2] en 0:00:00.270339, tamaño del archivo: 11044 bytes
+2024-07-19 00:48:32,743 - INFO - Backup completado para DB: [autocont_upn_ag14] en 0:00:01.931926, tamaño del archivo: 2631520 bytes
+2024-07-19 00:48:32,788 - INFO - Backup completado para DB: [autocont_upn_ag11] en 0:00:02.269205, tamaño del archivo: 4993548 bytes
+2024-07-19 00:48:32,961 - INFO - Backup completado para DB: [autocont_upn_ag12] en 0:00:02.427804, tamaño del archivo: 6370454 bytes
+2024-07-19 00:48:33,095 - INFO - Backup completado para DB: [autocont_upn_afg4] en 0:00:02.577290, tamaño del archivo: 6725830 bytes
+2024-07-19 00:48:33,121 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:48:33,127 - ---
+2024-07-19 00:53:17,719 - Directorio de backup: backup/2024-07-19
+2024-07-19 00:53:17,742 - INFO - Bases de datos obtenidas: 92
+2024-07-19 00:53:17,743 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 00:53:18,429 - INFO - Backup completado para DB: [autocont_upn_dgg6] en 0:00:00.679558, tamaño del archivo: 1908704 bytes
+2024-07-19 00:53:18,818 - INFO - Backup completado para DB: [autocont_upn_bojc] en 0:00:01.075088, tamaño del archivo: 2961499 bytes
+2024-07-19 00:53:18,844 - INFO - Backup completado para DB: [autocont_upn_dcel] en 0:00:01.096205, tamaño del archivo: 3361603 bytes
+2024-07-19 00:53:19,016 - INFO - Backup completado para DB: [autocont_upn_byg15] en 0:00:01.270059, tamaño del archivo: 3716594 bytes
+2024-07-19 00:53:20,319 - INFO - Backup completado para DB: [autocont_upn_ehrr] en 0:00:01.861551, tamaño del archivo: 5797751 bytes
+2024-07-19 00:53:21,163 - INFO - Backup completado para DB: [autocont_upn_jdg1] en 0:00:02.303434, tamaño del archivo: 7245557 bytes
+2024-07-19 00:53:21,990 - INFO - Backup completado para DB: [autocont_upn_jg5] en 0:00:03.126724, tamaño del archivo: 8517251 bytes
+2024-07-19 00:53:22,053 - INFO - Backup completado para DB: [autocont_upn_mcll] en 0:00:00.871412, tamaño del archivo: 1566678 bytes
+2024-07-19 00:53:22,085 - INFO - Backup completado para DB: [autocont_upn_jjg2] en 0:00:03.048548, tamaño del archivo: 7824950 bytes
+2024-07-19 00:53:22,906 - INFO - Backup completado para DB: [autocont_upn_llg3] en 0:00:02.560172, tamaño del archivo: 7072613 bytes
+2024-07-19 00:53:23,210 - INFO - Backup completado para DB: [autocont_upn_mg13] en 0:00:01.192249, tamaño del archivo: 4036654 bytes
+2024-07-19 00:53:23,248 - INFO - Backup completado para DB: [autocont_upn_nrc3529] en 0:00:01.172606, tamaño del archivo: 4057661 bytes
+2024-07-19 00:53:25,764 - INFO - Backup completado para DB: [autocont_upn_rpre] en 0:00:02.498041, tamaño del archivo: 5749649 bytes
+2024-07-19 00:53:27,340 - INFO - Backup completado para DB: [autocont_upn_nrc8329] en 0:00:04.414223, tamaño del archivo: 11549616 bytes
+2024-07-19 00:53:27,387 - INFO - Backup completado para DB: [autocont_upn_ug202] en 0:00:01.604224, tamaño del archivo: 2980552 bytes
+2024-07-19 00:53:28,039 - INFO - Backup completado para DB: [autocont_upn_ug213] en 0:00:00.636077, tamaño del archivo: 1919645 bytes
+2024-07-19 00:53:28,946 - INFO - Backup completado para DB: [autocont_upn_ug208] en 0:00:01.578356, tamaño del archivo: 4870825 bytes
+2024-07-19 00:53:28,975 - INFO - Backup completado para DB: [autocont_upn_ug218] en 0:00:00.874027, tamaño del archivo: 1564928 bytes
+2024-07-19 00:53:29,008 - INFO - Backup completado para DB: [autocont_upn_nrc9757] en 0:00:05.782021, tamaño del archivo: 14852262 bytes
+2024-07-19 00:53:30,082 - INFO - Backup completado para DB: [autocont_upn_ug228] en 0:00:01.058405, tamaño del archivo: 2960484 bytes
+2024-07-19 00:53:30,154 - INFO - Backup completado para DB: [autocont_upn_ug222] en 0:00:01.159373, tamaño del archivo: 3628204 bytes
+2024-07-19 00:53:30,249 - INFO - Backup completado para DB: [autocont_upn_ug225] en 0:00:01.245328, tamaño del archivo: 3654973 bytes
+2024-07-19 00:53:31,126 - INFO - Backup completado para DB: [autocont_upn_ug234] en 0:00:00.980418, tamaño del archivo: 2307588 bytes
+2024-07-19 00:53:31,482 - INFO - Backup completado para DB: [autocont_upn_nrc8328] en 0:00:09.379856, tamaño del archivo: 25641241 bytes
+2024-07-19 00:53:31,580 - INFO - Backup completado para DB: [autocont_upn_wa104] en 0:00:01.407012, tamaño del archivo: 3309889 bytes
+2024-07-19 00:53:31,603 - INFO - Backup completado para DB: [autocont_upn_wa106] en 0:00:01.330123, tamaño del archivo: 3392100 bytes
+2024-07-19 00:53:32,134 - INFO - Backup completado para DB: [autocont_upn_wa113] en 0:00:00.953579, tamaño del archivo: 1931046 bytes
+2024-07-19 00:53:32,513 - INFO - Backup completado para DB: [autocont_upn_wa119] en 0:00:00.900973, tamaño del archivo: 1963253 bytes
+2024-07-19 00:53:32,695 - INFO - Backup completado para DB: [autocont_upn_wa300] en 0:00:01.078177, tamaño del archivo: 2602276 bytes
+2024-07-19 00:53:32,895 - INFO - Backup completado para DB: [autocont_upn_wa114] en 0:00:01.386786, tamaño del archivo: 5711370 bytes
+2024-07-19 00:53:32,932 - INFO - Backup completado para DB: [autocont_upn_wa303] en 0:00:00.782893, tamaño del archivo: 2625817 bytes
+2024-07-19 00:53:33,140 - INFO - Backup completado para DB: [autocont_upn_wa309] en 0:00:00.609815, tamaño del archivo: 2599862 bytes
+2024-07-19 00:53:33,220 - INFO - Backup completado para DB: [Blazor] en 0:00:00.269412, tamaño del archivo: 10763 bytes
+2024-07-19 00:53:33,325 - INFO - Backup completado para DB: [biblioteca] en 0:00:00.412354, tamaño del archivo: 955518 bytes
+2024-07-19 00:53:33,900 - INFO - Backup completado para DB: [autocont_upn_wa310] en 0:00:01.184946, tamaño del archivo: 4011314 bytes
+2024-07-19 00:53:35,170 - INFO - Backup completado para DB: [client_demo_sisplani_sql_ivan] en 0:00:02.014627, tamaño del archivo: 7473213 bytes
+2024-07-19 00:53:35,279 - INFO - Backup completado para DB: [client_siscar3_home_cars] en 0:00:01.929637, tamaño del archivo: 4720092 bytes
+2024-07-19 00:53:35,680 - INFO - Backup completado para DB: [client_siscar3_parkcorp_elm] en 0:00:01.758125, tamaño del archivo: 5096544 bytes
+2024-07-19 00:53:36,647 - INFO - Backup completado para DB: [client_siscar3_parkcorp_elm2] en 0:00:01.448215, tamaño del archivo: 5095436 bytes
+2024-07-19 00:53:36,827 - INFO - Backup completado para DB: [client_siscar3_parkcorp_enc] en 0:00:01.525842, tamaño del archivo: 5095808 bytes
+2024-07-19 00:53:37,348 - INFO - Backup completado para DB: [client_siscar3_plampa_puno] en 0:00:01.650003, tamaño del archivo: 5186100 bytes
+2024-07-19 00:53:38,193 - INFO - Backup completado para DB: [client_siservi_cat_demona] en 0:00:00.828754, tamaño del archivo: 1653397 bytes
+2024-07-19 00:53:44,273 - INFO - Backup completado para DB: [client_siscar3_ferrand] en 0:00:11.035813, tamaño del archivo: 25918534 bytes
+2024-07-19 00:53:46,194 - INFO - Backup completado para DB: [client_siscar_parking_solu_yon] en 0:00:09.530982, tamaño del archivo: 13823497 bytes
+2024-07-19 00:53:48,487 - INFO - Backup completado para DB: [client_sisplani_sql_agricola] en 0:00:04.157564, tamaño del archivo: 11655946 bytes
+2024-07-19 00:53:50,512 - INFO - Backup completado para DB: [client_sisplani_sql_copacabana] en 0:00:04.298922, tamaño del archivo: 11260772 bytes
+2024-07-19 00:53:50,886 - INFO - Backup completado para DB: [client_siservi_rest_patricio] en 0:00:12.625528, tamaño del archivo: 18140581 bytes
+2024-07-19 00:53:53,783 - INFO - Backup completado para DB: [client_sisplani_sql_vento] en 0:00:03.240911, tamaño del archivo: 8394761 bytes
+2024-07-19 00:53:54,295 - INFO - Backup completado para DB: [DarkSouls] en 0:00:00.494134, tamaño del archivo: 118807 bytes
+2024-07-19 00:53:55,315 - INFO - Backup completado para DB: [demo_punto_vta3] en 0:00:00.979666, tamaño del archivo: 2277661 bytes
+2024-07-19 00:53:56,501 - INFO - Backup completado para DB: [demo_punto_vta3_testeo] en 0:00:01.169891, tamaño del archivo: 2968943 bytes
+2024-07-19 00:53:58,107 - INFO - Backup completado para DB: [demo_siscar3_sf] en 0:00:01.587597, tamaño del archivo: 4966846 bytes
+2024-07-19 00:53:59,433 - INFO - Backup completado para DB: [demo_siscar3_sf_new] en 0:00:01.310189, tamaño del archivo: 5100041 bytes
+2024-07-19 00:54:00,163 - INFO - Backup completado para DB: [demo_siservi_cat_oficial] en 0:00:00.710824, tamaño del archivo: 2123761 bytes
+2024-07-19 00:54:00,435 - INFO - Backup completado para DB: [client_sisplani_sql_walok] en 0:00:09.524967, tamaño del archivo: 20910274 bytes
+2024-07-19 00:54:00,747 - INFO - Backup completado para DB: [client_siscar_portugal_eduar] en 0:00:23.879588, tamaño del archivo: 31363291 bytes
+2024-07-19 00:54:01,193 - INFO - Backup completado para DB: [facturadorProSisplani] en 0:00:00.406589, tamaño del archivo: 415350 bytes
+2024-07-19 00:54:01,415 - INFO - Backup completado para DB: [demo_siservi_rest2] en 0:00:01.230578, tamaño del archivo: 3356362 bytes
+2024-07-19 00:54:02,307 - INFO - Backup completado para DB: [facturador_sisplani] en 0:00:01.062051, tamaño del archivo: 26581 bytes
+2024-07-19 00:54:02,554 - INFO - Backup completado para DB: [foleador_admin] en 0:00:01.096015, tamaño del archivo: 20807 bytes
+2024-07-19 00:54:02,967 - INFO - Backup completado para DB: [foliador] en 0:00:00.623978, tamaño del archivo: 11962 bytes
+2024-07-19 00:54:03,140 - INFO - Backup completado para DB: [numerador_lic] en 0:00:00.567208, tamaño del archivo: 22752 bytes
+2024-07-19 00:54:03,260 - INFO - Backup completado para DB: [postgres] en 0:00:00.275160, tamaño del archivo: 11149 bytes
+2024-07-19 00:54:03,683 - INFO - Backup completado para DB: [siscar3_admin] en 0:00:00.396655, tamaño del archivo: 17234 bytes
+2024-07-19 00:54:04,589 - INFO - Backup completado para DB: [dev_client_siscar_parking_solu_yon] en 0:00:04.138798, tamaño del archivo: 7719294 bytes
+2024-07-19 00:54:06,262 - INFO - Backup completado para DB: [_siscar3_cochera_fortaleza] en 0:00:02.542374, tamaño del archivo: 7417710 bytes
+2024-07-19 00:54:08,492 - INFO - Backup completado para DB: [_siscar3_oscar_lorenzo] en 0:00:02.206402, tamaño del archivo: 4596805 bytes
+2024-07-19 00:54:09,979 - INFO - Backup completado para DB: [siscar3_web_auto] en 0:00:01.462060, tamaño del archivo: 2429942 bytes
+2024-07-19 00:54:15,255 - INFO - Backup completado para DB: [siscar3_costablanca] en 0:00:10.631778, tamaño del archivo: 14299480 bytes
+2024-07-19 00:54:44,069 - INFO - Backup completado para DB: [siscar_plazaro] en 0:00:28.772471, tamaño del archivo: 36441171 bytes
+2024-07-19 00:54:55,264 - INFO - Backup completado para DB: [client_sisplani_sql_git] en 0:01:06.760594, tamaño del archivo: 128630797 bytes
+2024-07-19 00:54:56,956 - INFO - Backup completado para DB: [siscar_maximo2] en 0:00:46.949180, tamaño del archivo: 50791119 bytes
+2024-07-19 00:54:58,407 - INFO - Backup completado para DB: [siscar_velasquez] en 0:00:03.121733, tamaño del archivo: 9386983 bytes
+2024-07-19 00:55:04,256 - INFO - Backup completado para DB: [siservicat_hsp_nic] en 0:00:05.813675, tamaño del archivo: 14021472 bytes
+2024-07-19 00:55:04,892 - INFO - Backup completado para DB: [_siservicat_jcelio_test] en 0:00:00.622807, tamaño del archivo: 2160271 bytes
+2024-07-19 00:55:06,707 - INFO - Backup completado para DB: [_siservicat_mab_arequipa] en 0:00:01.792662, tamaño del archivo: 5293959 bytes
+2024-07-19 00:55:07,389 - INFO - Backup completado para DB: [_siservicat_mab_ate] en 0:00:00.663624, tamaño del archivo: 1948080 bytes
+2024-07-19 00:55:08,919 - INFO - Backup completado para DB: [siservi_cat_calimod] en 0:00:11.941903, tamaño del archivo: 31711114 bytes
+2024-07-19 00:55:09,020 - INFO - Backup completado para DB: [siservicat_mab_cuzco] en 0:00:01.615073, tamaño del archivo: 4390061 bytes
+2024-07-19 00:55:09,649 - INFO - Backup completado para DB: [_siservicat_mab_motupe] en 0:00:00.603409, tamaño del archivo: 1964913 bytes
+2024-07-19 00:55:09,653 - INFO - Backup completado para DB: [siservicat_mab_malteria] en 0:00:00.712351, tamaño del archivo: 2602619 bytes
+2024-07-19 00:55:10,409 - INFO - Backup completado para DB: [_siservicat_mab_sanmateo] en 0:00:00.741872, tamaño del archivo: 1962200 bytes
+2024-07-19 00:55:13,990 - INFO - Backup completado para DB: [sisplani_sql_gef] en 0:00:03.558118, tamaño del archivo: 12955255 bytes
+2024-07-19 00:55:15,581 - INFO - Backup completado para DB: [sisplani_sss] en 0:00:01.579100, tamaño del archivo: 7447325 bytes
+2024-07-19 00:55:15,837 - INFO - Backup completado para DB: [sisplani_test] en 0:00:00.236928, tamaño del archivo: 48593 bytes
+2024-07-19 00:55:16,217 - INFO - Backup completado para DB: [sisplani_test1] en 0:00:00.344875, tamaño del archivo: 43450 bytes
+2024-07-19 00:55:16,565 - INFO - Backup completado para DB: [sisplani_tools] en 0:00:00.328230, tamaño del archivo: 137990 bytes
+2024-07-19 00:55:18,693 - INFO - Backup completado para DB: [trabajo_diana_sisplani_sql] en 0:00:02.101249, tamaño del archivo: 7156647 bytes
+2024-07-19 00:55:23,324 - INFO - Backup completado para DB: [zmovi_client_siscar3_riquelme] en 0:00:04.614971, tamaño del archivo: 9607028 bytes
+2024-07-19 00:55:27,084 - INFO - Backup completado para DB: [sisplani_demo] en 0:00:17.408798, tamaño del archivo: 48568781 bytes
+2024-07-19 00:55:38,121 - INFO - Backup completado para DB: [siscar_rleiva] en 0:00:54.015865, tamaño del archivo: 75293516 bytes
+2024-07-19 00:56:31,298 - INFO - Backup completado para DB: [ruc_sunat] en 0:02:28.134765, tamaño del archivo: 646174333 bytes
+2024-07-19 00:56:31,313 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 00:56:31,317 - ---
+2024-07-19 01:16:36,869 - Directorio de backup: backup/2024-07-19
+2024-07-19 01:16:36,886 - INFO - Bases de datos obtenidas: 0
+2024-07-19 01:16:36,887 - INFO - No se encontraron bases de datos para respaldar.
+2024-07-19 01:16:36,887 - ---
+2024-07-19 01:21:25,064 - Directorio de backup: backup/2024-07-19
+2024-07-19 01:21:25,084 - INFO - Bases de datos obtenidas: 10
+2024-07-19 01:21:25,084 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 01:21:25,484 - INFO - Backup completado para DB: [_asist_academia] en 0:00:00.398638, tamaño del archivo: 710262 bytes
+2024-07-19 01:21:25,882 - INFO - Backup completado para DB: [autocont_20507047697_001] en 0:00:00.796625, tamaño del archivo: 2488538 bytes
+2024-07-19 01:21:26,321 - INFO - Backup completado para DB: [autocont_g11_otiniano] en 0:00:01.226795, tamaño del archivo: 3968749 bytes
+2024-07-19 01:21:26,472 - INFO - Backup completado para DB: [autocont_g10_diaz] en 0:00:01.382464, tamaño del archivo: 5250207 bytes
+2024-07-19 01:21:27,183 - INFO - Backup completado para DB: [autocont_g12_quispe] en 0:00:01.678952, tamaño del archivo: 6237477 bytes
+2024-07-19 01:21:28,288 - INFO - Backup completado para DB: [autocont_g2_perez] en 0:00:01.948962, tamaño del archivo: 7540911 bytes
+2024-07-19 01:21:29,267 - INFO - Backup completado para DB: [autocont_g4_culqui] en 0:00:02.064382, tamaño del archivo: 9075241 bytes
+2024-07-19 01:21:29,741 - INFO - Backup completado para DB: [autocont_g1_cedra] en 0:00:03.836060, tamaño del archivo: 17655869 bytes
+2024-07-19 01:21:29,836 - INFO - Backup completado para DB: [autocont_g3_puma] en 0:00:03.347473, tamaño del archivo: 14699145 bytes
+2024-07-19 01:21:30,300 - INFO - Backup completado para DB: [autocont_g5_arrascue] en 0:00:01.997343, tamaño del archivo: 9782363 bytes
+2024-07-19 01:21:30,313 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 01:21:30,319 - ---
+2024-07-19 01:55:53,944 - Directorio de backup: backup/2024-07-19
+2024-07-19 01:55:53,958 - INFO - Bases de datos obtenidas: 10
+2024-07-19 01:55:53,960 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 01:55:54,748 - INFO - Backup completado para DB: [autocont_g8_capa] en 0:00:00.786101, tamaño del archivo: 1919647 bytes
+2024-07-19 01:55:54,843 - INFO - Backup completado para DB: [autocont_g9_ayquipa] en 0:00:00.879823, tamaño del archivo: 2554000 bytes
+2024-07-19 01:55:55,002 - INFO - Backup completado para DB: [autocont_g7_villoslada] en 0:00:01.040028, tamaño del archivo: 3306741 bytes
+2024-07-19 01:55:55,338 - INFO - Backup completado para DB: [autocont_hernan_upn] en 0:00:00.472049, tamaño del archivo: 1945301 bytes
+2024-07-19 01:55:55,414 - INFO - Backup completado para DB: [autocont_hernan_old] en 0:00:00.644856, tamaño del archivo: 3021151 bytes
+2024-07-19 01:55:55,785 - INFO - Backup completado para DB: [autocont_g6_calzada] en 0:00:01.823732, tamaño del archivo: 6519407 bytes
+2024-07-19 01:55:55,916 - INFO - Backup completado para DB: [autocont_modelo] en 0:00:00.485090, tamaño del archivo: 1564893 bytes
+2024-07-19 01:55:56,037 - INFO - Backup completado para DB: [autocontplus_admin] en 0:00:00.233250, tamaño del archivo: 16796 bytes
+2024-07-19 01:55:56,473 - INFO - Backup completado para DB: [autocont_metabase] en 0:00:01.111997, tamaño del archivo: 5169468 bytes
+2024-07-19 01:55:56,827 - INFO - Backup completado para DB: [autocont_lopez] en 0:00:01.809612, tamaño del archivo: 8915788 bytes
+2024-07-19 01:55:56,848 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 01:55:56,851 - ---
+2024-07-19 02:00:51,911 - Directorio de backup: backup/2024-07-19
+2024-07-19 02:00:51,929 - INFO - Bases de datos obtenidas: 10
+2024-07-19 02:00:51,934 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 02:00:52,358 - INFO - Backup completado para DB: [autocontplus_admin2] en 0:00:00.423568, tamaño del archivo: 11044 bytes
+2024-07-19 02:00:53,498 - INFO - Backup completado para DB: [autocont_upn_ag14] en 0:00:01.112587, tamaño del archivo: 2631520 bytes
+2024-07-19 02:00:53,752 - INFO - Backup completado para DB: [autocont_upn_ag11] en 0:00:01.812152, tamaño del archivo: 4993552 bytes
+2024-07-19 02:00:53,982 - INFO - Backup completado para DB: [autocont_upn_afg4] en 0:00:02.047556, tamaño del archivo: 6725610 bytes
+2024-07-19 02:00:54,046 - INFO - Backup completado para DB: [autocont_upn_ag12] en 0:00:02.096967, tamaño del archivo: 6370716 bytes
+2024-07-19 02:00:54,403 - INFO - Backup completado para DB: [autocont_upn_bojc] en 0:00:00.886691, tamaño del archivo: 2961499 bytes
+2024-07-19 02:00:54,670 - INFO - Backup completado para DB: [autocont_upn_dgg6] en 0:00:00.599488, tamaño del archivo: 1908704 bytes
+2024-07-19 02:00:54,739 - INFO - Backup completado para DB: [autocont_upn_byg15] en 0:00:00.963666, tamaño del archivo: 3716594 bytes
+2024-07-19 02:00:54,869 - INFO - Backup completado para DB: [autocont_upn_dcel] en 0:00:00.869528, tamaño del archivo: 3361603 bytes
+2024-07-19 02:00:56,125 - INFO - Backup completado para DB: [autocont_upn_ehrr] en 0:00:01.702542, tamaño del archivo: 5797531 bytes
+2024-07-19 02:00:56,155 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 02:00:56,159 - ---
+2024-07-19 02:41:33,819 - Directorio de backup: backup/2024-07-19
+2024-07-19 02:41:33,835 - INFO - Bases de datos obtenidas: 10
+2024-07-19 02:41:33,836 - INFO - Usando 4 hilos para el proceso de backup
+2024-07-19 02:41:33,857 - ERROR - Al procesar la base de datos _asist_academia: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,857 - ERROR - Al procesar la base de datos autocont_g11_otiniano: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,857 - ERROR - Al procesar la base de datos autocont_20507047697_001: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,889 - ERROR - Al procesar la base de datos autocont_g10_diaz: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,889 - ERROR - Al procesar la base de datos autocont_g12_quispe: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,889 - ERROR - Al procesar la base de datos autocont_g4_culqui: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,894 - ERROR - Al procesar la base de datos autocont_g2_perez: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,894 - ERROR - Al procesar la base de datos autocont_g5_arrascue: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,894 - ERROR - Al procesar la base de datos autocont_g1_cedra: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,894 - ERROR - Al procesar la base de datos autocont_g3_puma: [Errno 8] Exec format error: 'pg_dump'
+2024-07-19 02:41:33,895 - Eliminando backups anteriores a 2024-07-12
+2024-07-19 02:41:33,900 - ---
