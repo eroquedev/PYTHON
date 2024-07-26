@@ -1,4 +1,3 @@
-*.env.production
-*.env.local
+*.env*
 POSTGRESQL/db_admin_tools/backup
 POSTGRESQL/db_admin_tools/log
